@@ -8,6 +8,7 @@ import Loading from "./pages/Header";
 import Partners from "./pages/Partners";
 import Properties from "./pages/Properties";
 import Subscribe from "./pages/Subscribe";
+import ScrollToTopButton from "./components/functions/ScrollToTopButton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Join />
         <Subscribe />
         <Footer />
+        <ScrollToTopButton />
       </BrowserRouter>
     </>
   );
